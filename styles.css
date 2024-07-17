@@ -27,7 +27,7 @@ body {
   margin-left: 160px;
 }
 .sesion-titulo {
-  width: 50%;
+  width: 36%;
 }
 .sesion-titulo h1 {
   font-size: 50px;
@@ -36,13 +36,14 @@ body {
 
 .sesion-titulo p {
   font-size: 18px;
-  color: var(--color-sesion-reseñas);
+  color: #8a7d88;
   margin-bottom: 40px;
 }
 .sesion-calificaciones {
-  width: 50%;
+  width: 52%;
   margin-top: 66px;
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 14px;
 }
 
 .sesion-calificacion {
@@ -50,8 +51,9 @@ body {
   background-color: var(--color-sesion-calificacion);
   border-radius: 5px;
   padding: 18px 38px;
-  margin-top: 18px;
-  width: 392px;
+  margin-top: 16px;
+  width: 368px;
+  height: 20px;
 }
 
 .calificacion1 {
@@ -72,48 +74,53 @@ body {
 .sesion-reseñas {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
+  margin-top: -128px;
+  margin-right: 24px;
 }
 .sesion-reseña {
-  background-color: #4b2a74;
+  background-color: var(--color-sesion-reseñas);
   color: #fff;
   padding: 20px;
   border-radius: 10px;
-  width: 244px;
-  height: 148px;
+  width: 310px;
+  height: 196px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .sesion-reseña img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin-bottom: 10px;
+  margin-top: 18px;
 }
 
 .sesion-reseña h3 {
   font-size: 16px;
   margin: -56px 64px 5px;
+  margin-top: -41px;
 }
 
 .sesion-reseña p {
   font-size: 14px;
-  color: #e0bff9;
+  color: #ca73aa;
   margin: 0 67px 10px;
 }
 
 .sesion-reseña blockquote {
-  font-size: 14px;
+  font-size: 16px;
   color: #eed5ea;
   margin: 0 0 10px;
+  text-align: center;
+  margin-top: 22px;
 }
 .reseña1 {
   transform: translateY(0px);
 }
 .reseña2 {
-  transform: translateY(40px);
+  transform: translateY(20px);
 }
 .reseña3 {
-  transform: translateY(80px);
+  transform: translateY(40px);
 }
 /* @media (max-width: 600px) {
   .cuerpo-principal {
