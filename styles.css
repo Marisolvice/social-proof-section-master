@@ -13,36 +13,35 @@ body {
   margin: 80px 138px;
   padding: 0;
 }
-.superior {
-  display: grid;
-  flex-direction: column;
-  margin-right: 10px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 18px;
-}
 .cuerpo-principal {
   background-color: #fff;
   margin: 0 102px;
-  min-height: 100vh;
   display: grid;
+  height: 800px;
+  width: 1444px;
+}
+.superior {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 66px;
+  margin-left: 160px;
+}
+.sesion-titulo {
+  width: 50%;
 }
 .sesion-titulo h1 {
-  font-size: 36px;
+  font-size: 50px;
   color: var(--color-sesion-reseñas);
-  text-align: left;
 }
 
 .sesion-titulo p {
   font-size: 18px;
   color: var(--color-sesion-reseñas);
   margin-bottom: 40px;
-  text-align: left;
 }
 .sesion-calificaciones {
-  display: grid;
-  justify-content: flex-end;
-  text-align: left;
+  width: 50%;
+  margin-top: 66px;
   font-weight: bold;
 }
 
@@ -51,7 +50,18 @@ body {
   background-color: var(--color-sesion-calificacion);
   border-radius: 5px;
   padding: 18px 38px;
-  margin-bottom: 18px;
+  margin-top: 18px;
+  width: 392px;
+}
+
+.calificacion1 {
+  transform: translateX(0px);
+}
+.calificacion2 {
+  transform: translateX(20px);
+}
+.calificacion3 {
+  transform: translateX(40px);
 }
 
 .sesion-calificacion__dato {
@@ -96,7 +106,15 @@ body {
   color: #eed5ea;
   margin: 0 0 10px;
 }
-
+.reseña1 {
+  transform: translateY(0px);
+}
+.reseña2 {
+  transform: translateY(40px);
+}
+.reseña3 {
+  transform: translateY(80px);
+}
 /* @media (max-width: 600px) {
   .cuerpo-principal {
     width: 100%;
